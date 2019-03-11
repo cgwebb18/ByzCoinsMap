@@ -25,6 +25,36 @@
       zoom: 3.8,
       crossSourceCollisions: false
     });
+    map.on('load', function() {
+      map.addSource('mints', {
+        "type": "geojson",
+        "data": "mints.geojson"
+      });
+      map.addLayer({
+        "id": "mints",
+        "type": "circle",
+        "source": "mints"
+      });
+    });
+    //preview names of places on mouseover
+    var popup = {};
+    map.on('mouseover', 'mints', function(e) {
+      var layer = e.features[0].layer.id
+      var features = e.features;
+      var coordinates = e.features[0].geometry.coordinates.slice();
+      var place_n = e.features[0].properties["Mint"];
+      popup = new mapboxgl.Popup({
+          closeButton: false
+        })
+        .setLngLat(coordinates)
+        .setHTML('<h4>' + place_n + '</h4>')
+        .addTo(map);
+    });
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'mints', function() {
+      popup.remove();
+      map.getCanvas().style.cursor = '';
+    });
   </script>
 </body>
 

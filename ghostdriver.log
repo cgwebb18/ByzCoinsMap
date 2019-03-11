@@ -1,0 +1,344 @@
+[INFO  - 2019-03-08T21:07:09.846Z] GhostDriver - Main - running on port 49369
+[INFO  - 2019-03-08T21:07:10.035Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-03-08T21:07:10.035Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.customHeaders:  - {}
+[INFO  - 2019-03-08T21:07:10.035Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-03-08T21:07:10.035Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 233266e0-41e6-11e9-a611-c709b6563f13
+[ERROR - 2019-03-08T21:07:14.259Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.259Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourceeasySlider-cachekey-3cd1dc610420b713d202326588e4a8ed.js:18)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.260Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.260Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourceeasyslider-portlet-cachekey-246aa2f0dd440cb5b5c06ab449a70851.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.263Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.263Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourceimageeditoreditlink-cachekey-759ca2fb71e707c8328da6e1ede29c9f.js:15)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.267Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.267Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/faceted_view-cachekey-3c4a559d6cae5a5a0d9fb054a66b1f35.js:39)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.269Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.269Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  (anonymous function) (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcefootnotesbigfoot-cachekey-12cb829ddad7dceed0cd7fdb69b8c373.js:657)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.270Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.270Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcecollective.zoomitzoomit-cachekey-a66dee0f1b7f131388648f2817ce7e58.js:11)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.270Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.270Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.4/jquery.dotdotdot.min.js:13)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.273Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.273Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcecollective.z3cform.datagridfielddatagridfield-cachekey-05d5af37aa55eb312c8e5b4c2b53d64b.js:13)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.275Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.275Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcezoom-assetsjquery.smoothZoom-cachekey-8aaaec5a16a12cf17ab62e3cd7e8b5a4.js:2499)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.279Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: define
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.279Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/++resource++plone.app.mosaic/plone-mosaic.js:269)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.282Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.283Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcedropdown-menu-cachekey-817086f6b334e821789bc1a2f848a39d.js:12)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.286Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.286Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/acl_users/credentials_cookie_auth/require_login?came_from=https%3A//www.doaks.org/resources/coins/catalogue:7)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.286Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.286Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/login.js:74)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.345Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.345Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/++theme++doaks.theme/dist/application-min.js?v=7:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.404Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.404Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/++theme++doaks.theme/jquery.rwdImageMaps.min.js?v=1:11)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.404Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:14.404Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/++theme++doaks.theme/scripts.js?v=29:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.500Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.500Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/dropdown-cachekey-e0a1423fa1cde69129da2b9ffdd0b8ee.js:19)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.500Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.500Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourceeasyslider-portlet-cachekey-246aa2f0dd440cb5b5c06ab449a70851.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.500Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.500Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourceimageeditoreditlink-cachekey-759ca2fb71e707c8328da6e1ede29c9f.js:15)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.501Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.502Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/faceted_view-cachekey-3c4a559d6cae5a5a0d9fb054a66b1f35.js:39)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.505Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.506Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcequickupload_staticswfobject-cachekey-85fa99bbda13a46069a4c6982a36b0b3.js:16)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.506Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.506Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  (anonymous function) (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcefootnotesbigfoot-cachekey-12cb829ddad7dceed0cd7fdb69b8c373.js:657)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.506Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.506Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcecollective.zoomitzoomit-cachekey-a66dee0f1b7f131388648f2817ce7e58.js:11)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.507Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.507Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.4/jquery.dotdotdot.min.js:13)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.507Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.507Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcecollective.z3cform.datagridfielddatagridfield-cachekey-05d5af37aa55eb312c8e5b4c2b53d64b.js:13)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.508Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.508Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/maps-config-cachekey-0af64c13725a6ddab266b7f44552f59e.js:34)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.508Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.508Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcezoom-assetsjquery.smoothZoom-cachekey-8aaaec5a16a12cf17ab62e3cd7e8b5a4.js:2499)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.509Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: define
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.509Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/++resource++plone.app.mosaic/plone-mosaic.js:269)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.509Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.510Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/portal_javascripts/Sunburst%20Theme/resourcedropdown-menu-cachekey-817086f6b334e821789bc1a2f848a39d.js:12)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.510Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.510Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/resources/coins/catalogue:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.510Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.511Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/resources/coins/catalogue:16)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.511Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.511Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/resources/coins/catalogue:18)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.555Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:25.556Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/Plone/++theme++doaks.theme/dist/application-min.js?v=7:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:29.699Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:29.700Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/++theme++doaks.theme/jquery.rwdImageMaps.min.js?v=1:11)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:29.700Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:29.700Z] Session [233266e0-41e6-11e9-a611-c709b6563f13] - page.onError - stack:
+  global code (https://www.doaks.org/++theme++doaks.theme/scripts.js?v=29:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:30.900Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079250871
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:31.913Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079251884
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:32.811Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079252764
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:33.684Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Se[INFO  - 2019-03-08T21:11:41.527Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-08T21:16:41.527Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-08T21:21:41.527Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ _clea[INFO  - 2019-03-08T21:17:53.618Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-08T21:22:53.618Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ntLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079257194
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:38.175Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079258151
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:39.129Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079259103
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:40.085Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079260060
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:40.959Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 15520792609[INFO  - 2019-03-08T21:10:43.929Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-08T21:15:43.929Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079262698
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:43.602Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079263580
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:44.474Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079264451
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:45.338Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079265316
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:46.243Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079266221
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:47.110Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079267089
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:47.979Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079267957
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:48.944Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079268918
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:49.906Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079269892
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:50.901Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079270873
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:51.855Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079271830
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:52.727Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079272702
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:53.588Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079273568
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:54.466Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079274445
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:55.374Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079275350
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:56.243Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079276221
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:57.124Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079277097
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:58.002Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079277980
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:58.960Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079278934
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:07:59.902Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079279880
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-08T21:08:00.862Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1552079280836
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-08T21:12:09.845Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-08T21:17:09.845Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-08T21:22:09.845Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
