@@ -6,12 +6,30 @@
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- JQuery UI for the date slider -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="scripts/jquery-ui-slider-pips.js"></script>
+  <script src="scripts/coinMap.js"></script>
   <link rel="stylesheet" href="m_style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.doaks.org/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
 </head>
 
 <body>
-  <nav id='menu'></nav>
+  <!-- HTML for resizing images without style tag -->
+  <!-- <div class='container'>
+    <img src="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.311/@@images/image/zoom">
+  </div> -->
+  <div class='sidebar'>
+    <div class='heading'><a href='https://www.doaks.org'><img src="DO_logo.png" /></a></div>
+    <label for='dateRange'>Date Range:</label>
+    <input type='text' id='dateRange' />
+    <div id='rangeSlider'></div>
+    <div id='results'></div>
+  </div>
   <div id='map'></div>
   <script type="text/javascript">
     //initialize map
@@ -25,38 +43,34 @@
       zoom: 3.8,
       crossSourceCollisions: false
     });
-    map.on('load', function() {
-      map.addSource('mints', {
-        "type": "geojson",
-        "data": "mints.geojson"
-      });
-      map.addLayer({
-        "id": "mints",
-        "type": "circle",
-        "source": "mints",
-        "paint": {
-          "circle-color": "#FF0000"
+    startMap(map);
+
+    $(function() {
+
+      $('#rangeSlider').slider({
+        range: true,
+        min: 400,
+        max: 1400,
+        step: 20,
+        values: [800, 1200],
+        slide: function(event, ui) {
+          var start = ui.values[0];
+          var end = ui.values[1];
+          $('#dateRange').val(start + ' - ' + end);
+          changeResults(start, end);
         }
       });
-    });
-    //preview names of places on mouseover
-    var popup = {};
-    map.on('mouseover', 'mints', function(e) {
-      var layer = e.features[0].layer.id
-      var features = e.features;
-      var coordinates = e.features[0].geometry.coordinates.slice();
-      var place_n = e.features[0].properties["Mint"];
-      popup = new mapboxgl.Popup({
-          closeButton: false
-        })
-        .setLngLat(coordinates)
-        .setHTML('<h4>' + place_n + '</h4>')
-        .addTo(map);
-    });
-    // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'mints', function() {
-      popup.remove();
-      map.getCanvas().style.cursor = '';
+
+      $("#dateRange").val($("#rangeSlider").slider("values", 0) +
+        " - " + $("#rangeSlider").slider("values", 1));
+
+      map.on('load', function() {
+        changeResults($("#rangeSlider").slider("values", 0), $("#rangeSlider").slider("values", 1));
+      });
+
+      $('.flip').click(function(e) {
+        console.log(e);
+      });
     });
   </script>
 </body>
