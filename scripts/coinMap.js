@@ -75,7 +75,7 @@ function createPopUp(currentFeature) {
 }
 
 function openMint(mint){
-  console.log(mint);
+  var features = map.querySourceFeatures('mints', {filter: ['==', 'Mint', mint.id]});
   //check if it's open/closed and switch
   if (mint.className.includes('closed')){
     mint.className = 'mint_result open';
@@ -86,10 +86,17 @@ function openMint(mint){
       if (element.nodeName == 'UL') {
         element.className = 'open';
       }
+      if (features.length > 0){
+        flyToMint(features[0]);
+      }
     });
   }
   else {
     mint.className = 'mint_result closed';
+    map.flyTo({
+      center: [18.465510, 41.768844],
+      zoom: 3.8
+    });
     mint.childNodes.forEach(function(element){
       if (element.className == 'mint_btn') {
         element.lastChild.className = 'caret';
@@ -112,8 +119,10 @@ function changeResults(start, end) {
     while (r.firstChild) {
       r.removeChild(r.firstChild);
     }
-    var features = map.queryRenderedFeatures({layers: ['mints']});
+    var features = map.querySourceFeatures('mints', {filter: filter});
+    features = features.slice(0, (features.length/2))
     features.forEach(function(element){
+      console.log(element);
       var name = element.properties.Mint;
       var coins = element.properties;
       var div = document.createElement('div');
@@ -158,6 +167,6 @@ function changeResults(start, end) {
     img.src = this.attributes.opp.nodeValue;
     this.attributes.opp.nodeValue = temp;
   });
-}, 500);
+}, 750);
 
 }
