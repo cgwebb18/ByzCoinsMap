@@ -1,5 +1,19 @@
 function startMap(map){
   map.on('load', function() {
+
+    map.addSource('mints', {
+      "type": "geojson",
+      "data": "layer.geojson"
+    });
+    map.addLayer({
+      "id": "mints",
+      "type": "circle",
+      "source": "mints",
+      "paint": {
+        "circle-color": "#FF0000"
+      }
+    });
+
     map.on('mouseover', 'mints', function(e) {
       var layer = e.features[0].layer.id
       var features = e.features;
@@ -18,18 +32,7 @@ function startMap(map){
       popup.remove();
       map.getCanvas().style.cursor = '';
     });
-    map.addSource('mints', {
-      "type": "geojson",
-      "data": "layer.geojson"
-    });
-    map.addLayer({
-      "id": "mints",
-      "type": "circle",
-      "source": "mints",
-      "paint": {
-        "circle-color": "#FF0000"
-      }
-    });
+
     map.on('click', 'mints', function(e) {
       var coordinates = e.features[0].geometry.coordinates.slice();
       flyToMint(e.features[0]);
@@ -74,8 +77,29 @@ function createPopUp(currentFeature) {
     .addTo(map);
 }
 
+function getUniqueFeatures(array, comparatorProperty) {
+  var existingFeatureKeys = {};
+  // Because features come from tiled vector data, feature geometries may be split
+  // or duplicated across tile boundaries and, as a result, features may appear
+  // multiple times in query results.
+  var uniqueFeatures = array.filter(function(el) {
+    if (existingFeatureKeys[el.properties[comparatorProperty]]) {
+      return false;
+    } else {
+      existingFeatureKeys[el.properties[comparatorProperty]] = true;
+      return true;
+    }
+  });
+
+  return uniqueFeatures;
+}
+
 function openMint(mint){
-  var features = map.querySourceFeatures('mints', {filter: ['==', 'Mint', mint.id]});
+  console.log('before:',mint);
+  mint = String(mint.id);
+  console.log('after:',mint);
+  var features = map.querySourceFeatures('mints', {filter: ['==', 'Mint', mint]});
+  mint = document.getElementById(mint);
   //check if it's open/closed and switch
   if (mint.className.includes('closed')){
     mint.className = 'mint_result open';
@@ -120,10 +144,9 @@ function changeResults(start, end) {
       r.removeChild(r.firstChild);
     }
     var features = map.querySourceFeatures('mints', {filter: filter});
-    features = features.slice(0, (features.length/2))
-    features.forEach(function(element){
-      console.log(element);
-      var name = element.properties.Mint;
+    var f2 = getUniqueFeatures(features, 'Mint');
+    f2.forEach(function(element){
+      var name = String(element.properties.Mint);
       var coins = element.properties;
       var div = document.createElement('div');
       div.id = name;
